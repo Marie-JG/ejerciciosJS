@@ -241,25 +241,25 @@ let digito=prompt("Ingrese un numero romano (I, V, X, L, C, D, M)");
 digito.toUpperCase();
 
 switch (digito) {
-    case I:
+    case "I":
       console.log(1);
       break;
-    case V:
+    case "V":
       console.log(5);
       break;
-    case X:
+    case "X":
       console.log(10);
       break;
-    case L:
+    case "L":
       console.log(50);
       break;
-    case C:
+    case "C":
       console.log(100);
       break;
-    case D:
+    case "D":
       console.log(500);
       break;
-    case M:
+    case "M":
       console.log(1000);
       break;
     default:
